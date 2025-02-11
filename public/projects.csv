@@ -1,0 +1,9 @@
+title,description,tech,year
+Streaming Website,"Mock streaming platform replicating popular streaming service features. Implemented robust security measures to safeguard user accounts and data, ensuring a secure streaming environment. Built an admin portal for efficient querying and editing within a MySQL database.",React;mySQL;Python,2024
+Dynamic Calling Cards,"Multi-Dimensional Calling card",JavaScript,2023
+Handwriting to LaTeX,"Translate handwritten math problem into LaTeX code",Python,2025
+AI Chatbot,"OpenAI chat bot.",OpenAI;Python;React,2024
+My Taskboard,"Mobile planner, daily organizer and habit tracker.",React,2023
+Image Recognition,"Trained model to recognize Waldo in 'Where's Waldo' images",Python,2025
+Math Visualizer,"Dynamic Visualizer for complex math problems",Python,2025
+AGIE STEM Inclusivity Database,"Developed an inclusive database focused on increasing accessibility in STEM fields. Coordinated with stakeholders at MCU to ensure ongoing database maintenance post-graduation.",React;mySQL;Python,2024
