@@ -26,7 +26,7 @@ export default function projects() {
 
   return (
 
-    <div className="bg-gray-900 text-gray-100 min-h-screen">
+    <div className="main">
       <Header />
 
     <main className="container">
@@ -35,9 +35,9 @@ export default function projects() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project, index) => (
-            <div key={index} className="tech-bubble">
-              <p className="text-sm">{project.year}</p>
-              <h4 className="subheader">{project.title}</h4>
+            <div key={index} className="bubble">
+              <p className="text-sm-lt">{project.year}</p>
+              <h4 className="subheader font-bold text-blue-400 mb-2">{project.title}</h4>
               <p className="text">{project.description}</p>
               <div className="mt-4">
                 {project.tech.split(';').map((tech, i) => (

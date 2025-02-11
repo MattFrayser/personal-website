@@ -29,18 +29,18 @@ export default function about() {
   }, []);
 
   return (
-    <div className="bg-gray-900 text-gray-100 min-h-screen">
+    <div className="main">
       <Header />
       <main className="container">
         <section className="section">
           <h1 className="header">Education</h1>
           <div className="mb-4">
             <h2 className="subheader">Virginia Commonwealth University</h2>
-            <p className="text">Bachelors of Science in Computer Science</p>
+            <p className="text mt-1">Bachelors of Science in Computer Science</p>
           </div>
           <div>
             <h3 className="subheader">Relevant Classes</h3>
-            <div className="bubble-container">
+            <div className="bubble-container mt-2">
               {classes.map((item, index) => (
                 <span key={index} className="bubble">
                   {item.class}

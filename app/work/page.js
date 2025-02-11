@@ -23,7 +23,7 @@ export default function work() {
 
   return (
 
-    <div className="bg-gray-900 text-gray-100 min-h-screen">
+    <div className="main">
     <Header />
     <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
     <section id="work" className="py-8">

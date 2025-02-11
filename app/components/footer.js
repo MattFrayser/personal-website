@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 export default function Footer() {
   return (
     <div>
-    <footer className="bg-gray-900 text-gray-100 py-8 border-t border-gray-700">
+    <footer className="py-8 border-t border-gray-700">
       <div className="max-w-4xl mx-auto px-4">
         <div className="text-center">
           <h4 className="text-xl font-bold mb-4">Let's Connect</h4>

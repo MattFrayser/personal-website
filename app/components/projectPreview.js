@@ -23,16 +23,16 @@ export default function ProjectsPreview() {
   return (
     <section id="projects" className="py-8">
       <div className="flex justify-between items-center mb-6">
-        <h3 className="text-2xl font-bold">Projects</h3>
+        <h3 className="subheader">Projects</h3>
         <button className="bg-gray-700 text-white px-3 py-1 rounded-lg hover:bg-gray-600">All Projects</button>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {projects.map((project, index) => (
-          <div key={index} className="bg-gray-950 rounded-lg shadow-lg overflow-hidden">
+          <div key={index} className="bubble">
             <div className="p-4">
-              <p className="text-gray-400">{project.year}</p>
+              <p className="text-sm-lt">{project.year}</p>
               <h4 className="text-xl font-bold text-blue-400 mb-2">{project.title}</h4>
-              <p className="text-gray-300">{project.description}</p>
+              <p className="text-sm">{project.description}</p>
             </div>
           </div>
         ))}
