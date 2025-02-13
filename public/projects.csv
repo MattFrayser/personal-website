@@ -1,9 +1,9 @@
 title,description,tech,year
-Streaming Website,"Mock streaming platform replicating popular streaming service features. Implemented robust security measures to safeguard user accounts and data, ensuring a secure streaming environment. Built an admin portal for efficient querying and editing within a MySQL database.",React;mySQL;Python,2024
-Dynamic Calling Cards,"Multi-Dimensional Calling card",JavaScript,2023
-Handwriting to LaTeX,"Translate handwritten math problem into LaTeX code",Python,2025
-AI Chatbot,"OpenAI chat bot.",OpenAI;Python;React,2024
-My Taskboard,"Mobile planner, daily organizer and habit tracker.",React,2023
-Image Recognition,"Trained model to recognize Waldo in 'Where's Waldo' images",Python,2025
-Math Visualizer,"Dynamic Visualizer for complex math problems",Python,2025
-AGIE STEM Inclusivity Database,"Developed an inclusive database focused on increasing accessibility in STEM fields. Coordinated with stakeholders at MCU to ensure ongoing database maintenance post-graduation.",React;mySQL;Python,2024
+Streaming Website,"Developed a mock streaming platform replicating features of popular streaming services. Implemented advanced security measures to protect user accounts and data, ensuring a secure streaming environment. Built an admin portal for efficient querying and editing within a MySQL database.",React;mySQL;Python,2024
+Dynamic Calling Cards,"Created multi-dimensional calling cards using JavaScript, enhancing interactivity and user engagement.",JavaScript,2023
+Handwriting to LaTeX,"Developed a tool to translate handwritten math problems into LaTeX code, streamlining the process of digitizing handwritten notes.",Python,2025
+AI Chatbot,"Built an AI chatbot using OpenAI's technology, capable of engaging in natural language conversations and providing intelligent responses.",OpenAI;Python;React,2024
+My Taskboard,"Designed a mobile planner, daily organizer, and habit tracker to help users manage their tasks and habits effectively.",React,2023
+Image Recognition,"Trained a machine learning model to recognize Waldo in 'Where's Waldo' images, demonstrating advanced image recognition capabilities.",Python,2025
+Math Visualizer,"Developed a dynamic visualizer for complex math problems, aiding in the understanding and solving of mathematical equations.",Python,2025
+AGIE STEM Inclusivity Database,"Created an inclusive database focused on increasing accessibility in STEM fields. Coordinated with stakeholders at MCU to ensure ongoing database maintenance post-graduation.",React;mySQL;Python,2024

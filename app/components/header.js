@@ -4,7 +4,8 @@ import ThemeToggle from './themeToggle';
 
 export default function Header() {
   return (
-    <header className="flex items-center justify-center py-4 px-4 border-b border-gray-700">      <nav>
+    <header className="flex items-center justify-center py-4 px-4 border-b border-gray-700">      
+      <nav>
         <ul className="flex gap-4 font-bold subheader">
           <li><Link href="/" className="hover:text-gray-200">Home</Link></li>
           <li>|</li>

@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import Papa from 'papaparse';
 import Header from "@/app/components/header";
 import Footer from "@/app/components/footer";
+import "@/app/globals.css"
 
 export default function work() {
   const [work, setWork] = useState([]);
@@ -32,11 +33,11 @@ export default function work() {
             <div key={index} className="my-4 bubble p-4">
               <div>
                   <div className="flex justify-between items-center">
-                    <p className="text">{job.company}</p>
-                    <p className="text-sm">{job.start} - {job.end}</p>
+                    <p className="subheader">{job.company}</p>
+                    <p className="text-sm-lt">{job.start} - {job.end}</p>
                   </div>
                   <p className="text-sm-lt">{job.title}</p>
-                  <p className="list-inside text py-2"> {job.description}</p>
+                  <p className="text py-4"> {job.description}</p>
               </div>
             </div>
           ))}

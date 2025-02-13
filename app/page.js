@@ -2,7 +2,6 @@
 import React from 'react';
 import Link from 'next/link'
 import Header from "@/app/components/header";
-import workPreview from "@/app/components/workPreview";
 import ProjectsPreview from "@/app/components/projectPreview";
 import Footer from "@/app/components/footer";
 import WorkPreview from '@/app/components/workPreview';
