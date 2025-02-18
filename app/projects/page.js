@@ -26,11 +26,7 @@ export default function ProjectDetail() {
         });
     }
   }, [id]);
-
-  if (!project) {
-    return <div>Loading...</div>;
-  }
-
+  
   return (
     <div className="main">
       <Header />
