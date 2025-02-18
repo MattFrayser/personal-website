@@ -32,7 +32,7 @@ export default function ProjectsPreview() {
             <div className="p-4">
               <p className="text-sm-lt">{project.year}</p>
               <h4 className="text-xl font-bold text-blue-400 mb-2">{project.title}</h4>
-              <p className="text-sm">{project.description}</p>
+              <p className="text-3line">{project.description}</p>
             </div>
           </div>
         ))}
