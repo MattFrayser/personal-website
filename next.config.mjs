@@ -2,7 +2,7 @@
 const nextConfig = {
    //basePath: "/personal-website",
    //output: "standalone",
-   //reactStrictMode: true,
+   reactStrictMode: true,
 };
 
 export default nextConfig;
