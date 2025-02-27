@@ -37,7 +37,7 @@ export default function ProjectDetail() {
       <main className="container">
         <section id="project-detail" className="section">
           <Link href="/projects"> 
-            <h2 className="subheader my-4"> Back </h2>
+            <h2 className=" text-2xl font-bold text-blue-400/80 hover:text-blue-400/50 my-4"> Back </h2>
           </Link>
           <h1 className="header">{project.title}</h1>
           <p className="text">{project.description}</p>

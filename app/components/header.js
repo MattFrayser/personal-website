@@ -11,7 +11,7 @@ export default function Header() {
           <li>|</li>
           <li><Link href="/work" className="hover:text-gray-200">Work</Link></li>
           <li><Link href="/projects" className="hover:text-gray-200">Projects</Link></li>
-          <li><a href="/about" className="hover:text-gray-200">About me</a></li>
+          <li><a href="/about" className="hover:text-gray-200">About</a></li>
         </ul>
       </nav>
 

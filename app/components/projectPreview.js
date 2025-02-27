@@ -1,5 +1,6 @@
 "use client"
 import React, { useEffect, useState } from 'react';
+import Link from 'next/link';
 import Papa from 'papaparse';
 
 export default function ProjectsPreview() {
@@ -24,7 +25,7 @@ export default function ProjectsPreview() {
     <section id="projects" className="py-8">
       <div className="flex justify-between items-center mb-6">
         <h3 className="subheader">Projects</h3>
-        <button className="bg-gray-700 text-white px-3 py-1 rounded-lg hover:bg-gray-600">All Projects</button>
+        <Link href="/projects" className="bg-gray-700 text-white px-3 py-1 rounded-lg hover:bg-gray-600">All Projects</Link>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {projects.map((project, index) => (

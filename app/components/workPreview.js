@@ -26,7 +26,7 @@ export default function WorkPreview() {
       <section id="work" className="py-8">
         <div className="flex justify-between items-center mb-6">
           <h3 className="subheader">Work</h3>
-          <button className="bg-gray-700 text-white px-3 py-1 rounded-lg hover:bg-gray-600">Previous Employment</button>
+          <Link href="/work" className="bg-gray-700 text-white px-3 py-1 rounded-lg hover:bg-gray-600">Previous Employment</Link>
         </div>
         <div className="mt-4">
           {work && (
